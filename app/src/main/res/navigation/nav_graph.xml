@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/pokemonListaFragmento">
+
+    <fragment
+        android:id="@+id/pokemonListaFragmento"
+        android:name="com.example.pokedex.Interface.listagemDosPokemons"
+        android:label="Pokedex" >
+        <action
+            android:id="@+id/action_pokemonListFragment_to_pokemonDetailsFragment"
+            app:destination="@id/pokemonDetalhesFragmento"
+            app:enterAnim="@anim/left_to_right">
+            <argument
+                android:name="name" />
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/pokemonDetalhesFragmento"
+        android:name="com.example.pokedex.Interface.detalhesDoPokemon"
+        android:label="Pokemon Details" >
+        <argument
+            android:name="name_lower_case"
+            app:argType="string" />
+        <argument
+            android:name="number"
+            app:argType="string" />
+        <argument
+            android:name="type"
+            app:argType="string[]" />
+        <argument
+            android:name="height"
+            app:argType="string" />
+        <argument
+            android:name="wight"
+            app:argType="string" />
+        <argument
+            android:name="name"
+            app:argType="string" />
+        <argument
+            android:name="weaknesses"
+            app:argType="string[]" />
+        <argument
+            android:name="description"
+            app:argType="string" />
+        <argument
+            android:name="nextEvolution"
+            app:argType="string[]"
+            app:nullable="true" />
+
+        <argument
+            android:name="prevEvolution"
+            app:argType="string[]"
+            app:nullable="true" />
+
+
+    </fragment>
+</navigation>

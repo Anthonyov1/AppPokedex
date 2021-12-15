@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/pokemon_gradient"
+    android:layout_height="match_parent"
+    >
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/nome_Detalhes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        android:textSize="24dp"
+                        android:textStyle="bold"
+                        tools:text="Nome" />
+
+                    <TextView
+                        android:id="@+id/numero_Detalhes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#000000"
+                        android:textSize="12dp"
+                        android:textStyle="bold"
+                        tools:text="30" />
+
+                    <ImageView
+                        android:id="@+id/imagemPoke_Detalhes"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:scaleType="fitEnd"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:ignore="MissingConstraints" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="100dp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#000000"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:text="Weight: " />
+
+                <TextView
+                    android:id="@+id/peso_Detalhes"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#000000"
+                    android:textSize="18dp"
+                    tools:text="Peso" />
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="100dp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#000000"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:text="Height: " />
+
+                <TextView
+                    android:id="@+id/tamanho_Detalhes"
+                    android:layout_height="wrap_content"
+                    android:layout_width="100dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    tools:text="Tamanho" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/descricao_Detalhes"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:lineSpacingExtra="3.5dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="Descrição"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="15dp"
+                android:layout_gravity="left"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:text="Type" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/tipo_Detalhes1"
+                    android:layout_width="50dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/flying" />
+
+                <ImageView
+                    android:id="@+id/tipo_Detalhes2"
+                    android:layout_width="50dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="10dp"
+                    android:scaleType="fitXY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="15dp"
+                android:layout_gravity="left"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="15dp"
+                android:text="Weaknesses" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/fraqueza_Detalhes1"
+                    android:layout_width="50dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/flying" />
+
+                <ImageView
+                    android:id="@+id/fraqueza_Detalhes2"
+                    android:layout_width="50dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="10dp"
+                    android:scaleType="fitXY" />
+
+                <ImageView
+                    android:id="@+id/fraqueza_Detalhes3"
+                    android:layout_width="50dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="10dp"
+                    android:scaleType="fitXY" />
+
+                <ImageView
+                    android:id="@+id/fraqueza_Detalhes4"
+                    android:layout_width="50dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="10dp"
+                    android:scaleType="fitXY" />
+
+                <ImageView
+                    android:id="@+id/fraqueza_Detalhes5"
+                    android:layout_width="50dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="10dp"
+                    android:scaleType="fitXY" />
+
+                <ImageView
+                    android:id="@+id/fraqueza_Detalhes6"
+                    android:layout_width="50dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="10dp"
+                    android:scaleType="fitXY" />
+
+                <ImageView
+                    android:id="@+id/fraqueza_Detalhes7"
+                    android:layout_width="50dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="10dp"
+                    android:scaleType="fitXY" />
+            </LinearLayout>
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="25dp"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                app:cardCornerRadius="25dp"
+                android:id="@+id/cardView"
+                android:layout_height="wrap_content"
+                >
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/caixaDasEvolucoes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:visibility="gone"
+                    android:paddingBottom="10dp">
+
+                    <ImageView
+                        android:id="@+id/evolucaoImagem1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/evolucao1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="@+id/evolucaoImagem1"
+                        app:layout_constraintStart_toStartOf="@+id/evolucaoImagem1"
+                        app:layout_constraintTop_toBottomOf="@+id/evolucaoImagem1"
+                        tools:ignore="MissingConstraints"
+                        tools:text="EVOLUÇÃO 1" />
+
+                    <ImageView
+                        android:id="@+id/evolucaoImagem2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="35dp"
+                        app:layout_constraintStart_toEndOf="@+id/evolucaoImagem1"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/evolucao2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="@+id/evolucaoImagem2"
+                        app:layout_constraintStart_toStartOf="@+id/evolucaoImagem2"
+                        app:layout_constraintTop_toBottomOf="@+id/evolucaoImagem2"
+                        tools:text="EVOLUÇÃO 2" />
+
+                    <TextView
+                        android:id="@+id/condicaoDeEvolucao1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="15dp"
+                        android:textSize="15sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/evolucao2"
+                        app:layout_constraintStart_toEndOf="@+id/evolucao1"
+                        app:layout_constraintTop_toBottomOf="@+id/evolucao1"
+                        tools:text="Level 16" />
+
+                    <ImageView
+                        android:id="@+id/evolucaoimagem3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="35dp"
+                        android:layout_marginEnd="15dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/evolucaoImagem2" />
+
+                    <TextView
+                        android:id="@+id/evolucao3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="@+id/evolucaoimagem3"
+                        app:layout_constraintStart_toStartOf="@+id/evolucaoimagem3"
+                        app:layout_constraintTop_toBottomOf="@+id/evolucaoimagem3"
+                        tools:text="EVOLUÇÃO 3" />
+
+                    <TextView
+                        android:id="@+id/condicaoDeEvolucao2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="15dp"
+                        android:textSize="15sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/evolucao3"
+                        app:layout_constraintStart_toEndOf="@+id/evolucao2"
+                        app:layout_constraintTop_toBottomOf="@+id/evolucao2"
+                        tools:text="Level 36" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
