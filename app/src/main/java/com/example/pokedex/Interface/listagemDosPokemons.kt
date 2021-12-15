@@ -42,11 +42,11 @@ class listagemDosPokemons : Fragment() {
         recyclerView = vinculo.recyclerView
         recyclerView.layoutManager = StaggeredGridLayoutManager(1, LinearLayoutManager.VERTICAL)
 
-        //pokemonData is a PokemonResponse object containing a list of Pokemon type objects
+        //pokemonData é um objeto PokemonResponse que contém uma lista de objetos do tipo Pokémon
         val adapter = pokemonAdaptador(pokemonData.pokemons ?: listOf())
         recyclerView.adapter = adapter
 
-        // Searchview configuring
+        // Configurando a busca
         vinculo.procuraDePokemon.setOnQueryTextListener(object : SearchView.OnQueryTextListener,
             androidx.appcompat.widget.SearchView.OnQueryTextListener {
             override fun onQueryTextSubmit(query: String?): Boolean {

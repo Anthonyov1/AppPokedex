@@ -24,8 +24,8 @@ class pokemonAdaptador(private val pokemonLista: List<Pokemon>) :
 
     RecyclerView.Adapter<pokemonAdaptador.ItemViewHolder>(), Filterable {
 
-    /*filtering for pokemon searching bar, the recycler view will always return the filtering results,
-    * except for when there is no search, returning the whole list */
+    /*filtro a barra de pesquisa do Pokémon, a visualização do reciclador sempre retornará os resultados da filtragem,
+      exceto quando não há pesquisa, retornando toda a lista */
 
     var FiltroLista = pokemonLista.toMutableList()
     override fun getFilter(): Filter {
@@ -77,7 +77,7 @@ class pokemonAdaptador(private val pokemonLista: List<Pokemon>) :
 
 
 
-        //loads the pokemon image
+        //carrega a imagem do Pokémon
         Picasso.get()
             .load("${pokemon.img}")
             .resize(150, 150)
@@ -90,7 +90,7 @@ class pokemonAdaptador(private val pokemonLista: List<Pokemon>) :
 
         holder.pokemonId.text = "Nº: " + pokemon.id.toString().padStart(3,'0')
 
-        //applies the drawables for pokemon type
+        //aplica os drawables para o tipo de Pokémon
         holder.pokemonType1.setImageDrawable(
             typeSelector(
                 holder.itemView.context,
@@ -108,8 +108,8 @@ class pokemonAdaptador(private val pokemonLista: List<Pokemon>) :
             holder.pokemonType2.setImageDrawable(null)
         }
 
-        /* clicking a pokemon on the list navigates to PokemonDetailsFragment, passing along
-        the pokemon's properties as arguments
+        /* clicar em um Pokémon na lista navega para PokémonDetailsFragment, passando adiante
+        as propriedades do Pokémon como argumentos
         */
         holder.pokemonImage.setOnClickListener {
             val action =
@@ -120,12 +120,16 @@ class pokemonAdaptador(private val pokemonLista: List<Pokemon>) :
                     number = pokemon.num!!,
                     height = pokemon.tamanho!!,
                     wight = pokemon.peso!!,
+                    hp = pokemon.vida!!,
+                    attack = pokemon.ataque!!,
+                    defense = pokemon.defesa!!,
+                    speed = pokemon.velocidade!!,
                     type = pokemon.tipo.toTypedArray(),
                     weaknesses = pokemon.fraqueza!!.toTypedArray(),
 
-                    /*passes all of the next and previous evolutions as an array
-                    containing the name and level for that evolution, passing a "null" string in case of a null parameter
-                    ex.: ["raichu", "16", "none", "none"]
+                    /*passa todas as evoluções seguintes e anteriores como um array
+                    contendo o nome e o nível dessa evolução, passando uma string "nula" no caso de um parâmetro nulo
+                    ex .: ["raichu", "16", "nenhum", "nenhum"]
                     */
                     nextEvolution = arrayOf(
                         pokemon.Evolucao?.getOrNull(0)?.nome.toString(),

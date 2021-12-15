@@ -11,6 +11,10 @@
     ],
     "height": "0.71 m",
     "weight": "6.9 kg",
+    "hp": "45",
+    "attack": "49",
+    "defense": "49",
+    "speed": "45",
     "weaknesses": [
       "Fire",
       "Ice",
@@ -36,6 +40,10 @@
     ],
     "height": "0.99 m",
     "weight": "13.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Fire",
       "Ice",
@@ -62,6 +70,10 @@
     ],
     "height": "2.01 m",
     "weight": "100.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Fire",
       "Ice",
@@ -86,6 +98,10 @@
     ],
     "height": "0.61 m",
     "weight": "8.5 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Water",
       "Ground",
@@ -109,6 +125,10 @@
     ],
     "height": "1.09 m",
     "weight": "19.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Water",
       "Ground",
@@ -134,6 +154,10 @@
     ],
     "height": "1.70 m",
     "weight": "90.5 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Water",
       "Electric",
@@ -157,6 +181,10 @@
     ],
     "height": "0.51 m",
     "weight": "9.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Electric",
       "Grass"
@@ -179,6 +207,10 @@
     ],
     "height": "0.99 m",
     "weight": "22.5 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Electric",
       "Grass"
@@ -202,6 +234,10 @@
     ],
     "height": "1.60 m",
     "weight": "85.5 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Electric",
       "Grass"
@@ -224,6 +260,10 @@
     ],
     "height": "0.30 m",
     "weight": "2.9 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Fire",
       "Flying",
@@ -247,6 +287,10 @@
     ],
     "height": "0.71 m",
     "weight": "9.9 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Fire",
       "Flying",
@@ -272,6 +316,10 @@
     ],
     "height": "1.09 m",
     "weight": "32.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Fire",
       "Electric",
@@ -298,6 +346,10 @@
     ],
     "height": "0.30 m",
     "weight": "3.2 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Fire",
       "Flying",
@@ -323,6 +375,10 @@
     ],
     "height": "0.61 m",
     "weight": "10.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Fire",
       "Flying",
@@ -349,6 +405,10 @@
     ],
     "height": "0.99 m",
     "weight": "29.5 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Fire",
       "Flying",
@@ -374,6 +434,10 @@
     ],
     "height": "0.30 m",
     "weight": "1.8 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Electric",
       "Rock"
@@ -397,6 +461,10 @@
     ],
     "height": "1.09 m",
     "weight": "30.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Electric",
       "Rock"
@@ -421,6 +489,10 @@
     ],
     "height": "1.50 m",
     "weight": "39.5 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Electric",
       "Rock"
@@ -443,6 +515,10 @@
     ],
     "height": "0.30 m",
     "weight": "3.5 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Fighting"
     ],
@@ -461,6 +537,10 @@
     ],
     "height": "0.71 m",
     "weight": "18.5 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Fighting"
     ],
@@ -480,6 +560,10 @@
     ],
     "height": "0.30 m",
     "weight": "2.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Electric",
       "Rock"
@@ -500,6 +584,10 @@
     ],
     "height": "1.19 m",
     "weight": "38.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Electric",
       "Rock"
@@ -519,7 +607,10 @@
     ],
     "height": "2.01 m",
     "weight": "6.9 kg",
-    "candy": "Ekans Candy",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Ground",
       "Psychic"
@@ -539,6 +630,10 @@
     ],
     "height": "3.51 m",
     "weight": "65.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Ground",
       "Psychic"
@@ -558,6 +653,10 @@
     ],
     "height": "0.41 m",
     "weight": "6.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Ground"
     ],
@@ -576,6 +675,10 @@
     ],
     "height": "0.79 m",
     "weight": "30.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Ground"
     ],
@@ -594,6 +697,10 @@
     ],
     "height": "0.61 m",
     "weight": "12.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Water",
       "Grass",
@@ -614,6 +721,10 @@
     ],
     "height": "0.99 m",
     "weight": "29.5 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Water",
       "Grass",
@@ -634,6 +745,10 @@
     ],
     "height": "0.41 m",
     "weight": "7.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Ground",
       "Psychic"
@@ -656,6 +771,10 @@
     ],
     "height": "0.79 m",
     "weight": "20.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Ground",
       "Psychic"
@@ -680,6 +799,10 @@
     ],
     "height": "1.30 m",
     "weight": "60.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Water",
       "Ice",
@@ -704,6 +827,10 @@
     ],
     "height": "0.51 m",
     "weight": "9.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Ground",
       "Psychic"
@@ -726,6 +853,10 @@
     ],
     "height": "0.89 m",
     "weight": "19.5 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Ground",
       "Psychic"
@@ -750,6 +881,10 @@
     ],
     "height": "1.40 m",
     "weight": "62.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Water",
       "Ice",
@@ -774,6 +909,10 @@
     ],
     "height": "0.61 m",
     "weight": "7.5 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Fighting"
     ],
@@ -792,6 +931,10 @@
     ],
     "height": "1.30 m",
     "weight": "40.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Fighting"
     ],
@@ -810,6 +953,10 @@
     ],
     "height": "0.61 m",
     "weight": "9.9 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Water",
       "Ground",
@@ -830,6 +977,10 @@
     ],
     "height": "1.09 m",
     "weight": "19.9 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Water",
       "Ground",
@@ -850,6 +1001,10 @@
     ],
     "height": "0.51 m",
     "weight": "5.5 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Fighting"
     ],
@@ -868,6 +1023,10 @@
     ],
     "height": "0.99 m",
     "weight": "12.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Fighting"
     ],
@@ -887,6 +1046,10 @@
     ],
     "height": "0.79 m",
     "weight": "7.5 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Electric",
       "Ice",
@@ -908,6 +1071,10 @@
     ],
     "height": "1.60 m",
     "weight": "55.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Electric",
       "Ice",
@@ -929,6 +1096,10 @@
     ],
     "height": "0.51 m",
     "weight": "5.4 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Fire",
       "Ice",
@@ -953,6 +1124,10 @@
     ],
     "height": "0.79 m",
     "weight": "8.6 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Fire",
       "Ice",
@@ -978,6 +1153,10 @@
     ],
     "height": "1.19 m",
     "weight": "18.6 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Fire",
       "Ice",
@@ -1003,6 +1182,10 @@
     ],
     "height": "0.30 m",
     "weight": "5.4 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Fire",
       "Ice",
@@ -1027,6 +1210,10 @@
     ],
     "height": "0.99 m",
     "weight": "29.5 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Fire",
       "Ice",
@@ -1051,6 +1238,10 @@
     ],
     "height": "0.99 m",
     "weight": "30.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Fire",
       "Flying",
@@ -1073,6 +1264,10 @@
     ],
     "height": "1.50 m",
     "weight": "12.5 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Fire",
       "Flying",
@@ -1094,6 +1289,10 @@
     ],
     "height": "0.20 m",
     "weight": "0.8 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Water",
       "Grass",
@@ -1114,6 +1313,10 @@
     ],
     "height": "0.71 m",
     "weight": "33.3 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Water",
       "Grass",
@@ -1134,6 +1337,10 @@
     ],
     "height": "0.41 m",
     "weight": "4.2 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Fighting"
     ],
@@ -1152,6 +1359,10 @@
     ],
     "height": "0.99 m",
     "weight": "32.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Fighting"
     ],
@@ -1170,6 +1381,10 @@
     ],
     "height": "0.79 m",
     "weight": "19.6 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Electric",
       "Grass"
@@ -1189,6 +1404,10 @@
     ],
     "height": "1.70 m",
     "weight": "76.6 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Electric",
       "Grass"
@@ -1208,6 +1427,10 @@
     ],
     "height": "0.51 m",
     "weight": "28.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "multipliers": [
       2.17,
       2.28
@@ -1232,6 +1455,10 @@
     ],
     "height": "0.99 m",
     "weight": "32.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Flying",
       "Psychic",
@@ -1252,6 +1479,10 @@
     ],
     "height": "0.71 m",
     "weight": "19.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Water",
       "Ground",
@@ -1272,6 +1503,10 @@
     ],
     "height": "1.91 m",
     "weight": "155.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Water",
       "Ground",
@@ -1292,6 +1527,10 @@
     ],
     "height": "0.61 m",
     "weight": "12.4 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Electric",
       "Grass"
@@ -1314,6 +1553,10 @@
     ],
     "height": "0.99 m",
     "weight": "20.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Electric",
       "Grass"
@@ -1338,6 +1581,10 @@
     ],
     "height": "1.30 m",
     "weight": "54.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Electric",
       "Grass",
@@ -1363,6 +1610,10 @@
     ],
     "height": "0.89 m",
     "weight": "19.5 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Bug",
       "Ghost",
@@ -1386,6 +1637,10 @@
     ],
     "height": "1.30 m",
     "weight": "56.5 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Bug",
       "Ghost",
@@ -1410,6 +1665,10 @@
     ],
     "height": "1.50 m",
     "weight": "48.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Bug",
       "Ghost",
@@ -1433,6 +1692,10 @@
     ],
     "height": "0.79 m",
     "weight": "19.5 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Flying",
       "Psychic",
@@ -1456,6 +1719,10 @@
     ],
     "height": "1.50 m",
     "weight": "70.5 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Flying",
       "Psychic",
@@ -1480,6 +1747,10 @@
     ],
     "height": "1.60 m",
     "weight": "130.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Flying",
       "Psychic",
@@ -1504,6 +1775,10 @@
     ],
     "height": "0.71 m",
     "weight": "4.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Fire",
       "Ice",
@@ -1529,6 +1804,10 @@
     ],
     "height": "0.99 m",
     "weight": "6.4 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Fire",
       "Ice",
@@ -1555,6 +1834,10 @@
     ],
     "height": "1.70 m",
     "weight": "15.5 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Fire",
       "Ice",
@@ -1580,6 +1863,10 @@
     ],
     "height": "0.89 m",
     "weight": "45.5 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Electric",
       "Ground",
@@ -1601,6 +1888,10 @@
     ],
     "height": "1.60 m",
     "weight": "55.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Electric",
       "Ground",
@@ -1622,6 +1913,10 @@
     ],
     "height": "0.41 m",
     "weight": "20.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Water",
       "Grass",
@@ -1649,6 +1944,10 @@
     ],
     "height": "0.99 m",
     "weight": "105.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Water",
       "Grass",
@@ -1677,6 +1976,10 @@
     ],
     "height": "1.40 m",
     "weight": "300.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Water",
       "Grass",
@@ -1703,6 +2006,10 @@
     ],
     "height": "0.99 m",
     "weight": "30.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Water",
       "Ground",
@@ -1723,6 +2030,10 @@
     ],
     "height": "1.70 m",
     "weight": "95.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Water",
       "Ground",
@@ -1744,6 +2055,10 @@
     ],
     "height": "1.19 m",
     "weight": "36.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Electric",
       "Grass",
@@ -1767,6 +2082,10 @@
     ],
     "height": "1.60 m",
     "weight": "78.5 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Electric",
       "Grass",
@@ -1789,6 +2108,10 @@
     ],
     "height": "0.30 m",
     "weight": "6.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Fire",
       "Water",
@@ -1809,6 +2132,10 @@
     ],
     "height": "0.99 m",
     "weight": "60.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Fire",
       "Water",
@@ -1830,6 +2157,10 @@
     ],
     "height": "0.79 m",
     "weight": "15.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Electric",
       "Rock"
@@ -1846,6 +2177,10 @@
     ],
     "height": "1.40 m",
     "weight": "39.2 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Electric",
       "Rock"
@@ -1866,6 +2201,10 @@
     ],
     "height": "1.80 m",
     "weight": "85.2 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Electric",
       "Rock"
@@ -1885,6 +2224,10 @@
     ],
     "height": "1.09 m",
     "weight": "90.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Electric",
       "Grass"
@@ -1905,6 +2248,10 @@
     ],
     "height": "1.70 m",
     "weight": "120.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Electric",
       "Grass",
@@ -1926,6 +2273,10 @@
     ],
     "height": "0.89 m",
     "weight": "30.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Ground",
       "Psychic"
@@ -1945,6 +2296,10 @@
     ],
     "height": "1.19 m",
     "weight": "30.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Ground",
       "Psychic"
@@ -1964,6 +2319,10 @@
     ],
     "height": "0.30 m",
     "weight": "4.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Electric",
       "Grass"
@@ -1984,6 +2343,10 @@
     ],
     "height": "1.50 m",
     "weight": "132.5 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Electric",
       "Grass",
@@ -2006,6 +2369,10 @@
     ],
     "height": "1.30 m",
     "weight": "0.1 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Ground",
       "Psychic",
@@ -2031,6 +2398,10 @@
     ],
     "height": "1.60 m",
     "weight": "0.1 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Ground",
       "Psychic",
@@ -2057,6 +2428,10 @@
     ],
     "height": "1.50 m",
     "weight": "40.5 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Ground",
       "Psychic",
@@ -2082,6 +2457,10 @@
     ],
     "height": "8.79 m",
     "weight": "210.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Water",
       "Grass",
@@ -2101,6 +2480,10 @@
     ],
     "height": "0.99 m",
     "weight": "32.4 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Bug",
       "Ghost",
@@ -2121,6 +2504,10 @@
     ],
     "height": "1.60 m",
     "weight": "75.6 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Bug",
       "Ghost",
@@ -2141,6 +2528,10 @@
     ],
     "height": "0.41 m",
     "weight": "6.5 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Electric",
       "Grass"
@@ -2160,6 +2551,10 @@
     ],
     "height": "1.30 m",
     "weight": "60.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Electric",
       "Grass"
@@ -2179,6 +2574,10 @@
     ],
     "height": "0.51 m",
     "weight": "10.4 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Ground"
     ],
@@ -2197,6 +2596,10 @@
     ],
     "height": "1.19 m",
     "weight": "66.6 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Ground"
     ],
@@ -2216,6 +2619,10 @@
     ],
     "height": "0.41 m",
     "weight": "2.5 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Fire",
       "Ice",
@@ -2241,6 +2648,10 @@
     ],
     "height": "2.01 m",
     "weight": "120.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Fire",
       "Ice",
@@ -2265,6 +2676,10 @@
     ],
     "height": "0.41 m",
     "weight": "6.5 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Water",
       "Grass",
@@ -2285,6 +2700,10 @@
     ],
     "height": "0.99 m",
     "weight": "45.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Water",
       "Grass",
@@ -2305,6 +2724,10 @@
     ],
     "height": "1.50 m",
     "weight": "49.8 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Flying",
       "Psychic",
@@ -2321,6 +2744,10 @@
     ],
     "height": "1.40 m",
     "weight": "50.2 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Flying",
       "Psychic",
@@ -2337,6 +2764,10 @@
     ],
     "height": "1.19 m",
     "weight": "65.5 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Fighting"
     ]
@@ -2351,6 +2782,10 @@
     ],
     "height": "0.61 m",
     "weight": "1.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Ground",
       "Psychic"
@@ -2370,6 +2805,10 @@
     ],
     "height": "1.19 m",
     "weight": "9.5 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Ground",
       "Psychic"
@@ -2390,6 +2829,10 @@
     ],
     "height": "0.99 m",
     "weight": "115.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Water",
       "Grass",
@@ -2414,6 +2857,10 @@
     ],
     "height": "1.91 m",
     "weight": "120.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Water",
       "Grass",
@@ -2437,6 +2884,10 @@
     ],
     "height": "1.09 m",
     "weight": "34.6 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Fighting"
     ]
@@ -2451,6 +2902,10 @@
     ],
     "height": "0.99 m",
     "weight": "35.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Fire",
       "Ice",
@@ -2469,6 +2924,10 @@
     ],
     "height": "2.21 m",
     "weight": "80.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Fighting"
     ]
@@ -2483,6 +2942,10 @@
     ],
     "height": "0.41 m",
     "weight": "8.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Electric",
       "Grass"
@@ -2502,6 +2965,10 @@
     ],
     "height": "1.19 m",
     "weight": "25.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Electric",
       "Grass"
@@ -2521,6 +2988,10 @@
     ],
     "height": "0.61 m",
     "weight": "15.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Electric",
       "Grass"
@@ -2540,6 +3011,10 @@
     ],
     "height": "1.30 m",
     "weight": "39.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Electric",
       "Grass"
@@ -2559,6 +3034,10 @@
     ],
     "height": "0.79 m",
     "weight": "34.5 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "multipliers": [
       2.38,
       2.41
@@ -2583,6 +3062,10 @@
     ],
     "height": "1.09 m",
     "weight": "80.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Electric",
       "Grass",
@@ -2605,6 +3088,10 @@
     ],
     "height": "1.30 m",
     "weight": "54.5 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Bug",
       "Ghost",
@@ -2622,6 +3109,10 @@
     ],
     "height": "1.50 m",
     "weight": "56.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Fire",
       "Electric",
@@ -2641,6 +3132,10 @@
     ],
     "height": "1.40 m",
     "weight": "40.6 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Fire",
       "Bug",
@@ -2660,6 +3155,10 @@
     ],
     "height": "1.09 m",
     "weight": "30.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Ground"
     ]
@@ -2674,6 +3173,10 @@
     ],
     "height": "1.30 m",
     "weight": "44.5 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Water",
       "Ground",
@@ -2690,6 +3193,10 @@
     ],
     "height": "1.50 m",
     "weight": "55.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Fire",
       "Flying",
@@ -2706,6 +3213,10 @@
     ],
     "height": "1.40 m",
     "weight": "88.4 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Fighting"
     ]
@@ -2720,6 +3231,10 @@
     ],
     "height": "0.89 m",
     "weight": "10.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Electric",
       "Grass"
@@ -2740,6 +3255,10 @@
     ],
     "height": "6.50 m",
     "weight": "235.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Electric",
       "Rock"
@@ -2760,6 +3279,10 @@
     ],
     "height": "2.49 m",
     "weight": "220.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Electric",
       "Grass",
@@ -2777,6 +3300,10 @@
     ],
     "height": "0.30 m",
     "weight": "4.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Fighting"
     ]
@@ -2791,6 +3318,10 @@
     ],
     "height": "0.30 m",
     "weight": "6.5 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Fighting"
     ],
@@ -2815,6 +3346,10 @@
     ],
     "height": "0.99 m",
     "weight": "29.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Electric",
       "Grass"
@@ -2834,6 +3369,10 @@
     ],
     "height": "0.79 m",
     "weight": "24.5 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Ground"
     ],
@@ -2852,6 +3391,10 @@
     ],
     "height": "0.89 m",
     "weight": "25.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Water",
       "Ground",
@@ -2872,6 +3415,10 @@
     ],
     "height": "0.79 m",
     "weight": "36.5 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Fighting"
     ]
@@ -2887,6 +3434,10 @@
     ],
     "height": "0.41 m",
     "weight": "7.5 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Electric",
       "Grass",
@@ -2909,6 +3460,10 @@
     ],
     "height": "0.99 m",
     "weight": "35.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Electric",
       "Grass",
@@ -2931,6 +3486,10 @@
     ],
     "height": "0.51 m",
     "weight": "11.5 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Electric",
       "Grass",
@@ -2953,6 +3512,10 @@
     ],
     "height": "1.30 m",
     "weight": "40.5 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Electric",
       "Grass",
@@ -2975,6 +3538,10 @@
     ],
     "height": "1.80 m",
     "weight": "59.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Water",
       "Electric",
@@ -2993,6 +3560,10 @@
     ],
     "height": "2.11 m",
     "weight": "460.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Fighting"
     ]
@@ -3008,6 +3579,10 @@
     ],
     "height": "1.70 m",
     "weight": "55.4 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Fire",
       "Electric",
@@ -3026,6 +3601,10 @@
     ],
     "height": "1.60 m",
     "weight": "52.6 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Ice",
       "Rock"
@@ -3042,6 +3621,10 @@
     ],
     "height": "2.01 m",
     "weight": "60.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Water",
       "Electric",
@@ -3058,6 +3641,10 @@
     ],
     "height": "1.80 m",
     "weight": "3.3 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Ice",
       "Dragon",
@@ -3081,6 +3668,10 @@
     ],
     "height": "3.99 m",
     "weight": "16.5 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Ice",
       "Dragon",
@@ -3106,6 +3697,10 @@
     ],
     "height": "2.21 m",
     "weight": "210.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Ice",
       "Rock",
@@ -3130,6 +3725,10 @@
     ],
     "height": "2.01 m",
     "weight": "122.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Bug",
       "Ghost",
@@ -3146,6 +3745,10 @@
     ],
     "height": "0.41 m",
     "weight": "4.0 kg",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "speed": "",
     "weaknesses": [
       "Bug",
       "Ghost",

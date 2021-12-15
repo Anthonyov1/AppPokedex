@@ -77,7 +77,7 @@
                     android:layout_width="100dp"
                     android:layout_marginTop="15dp"
                     android:textColor="#000000"
-                    android:textAlignment="center"
+                    android:paddingLeft="15dp"
                     android:textSize="20dp"
                     android:textStyle="bold"
                     android:text="Weight: " />
@@ -96,7 +96,7 @@
                     android:layout_width="100dp"
                     android:layout_marginTop="15dp"
                     android:textColor="#000000"
-                    android:textAlignment="center"
+                    android:paddingLeft="15dp"
                     android:textSize="20dp"
                     android:textStyle="bold"
                     android:text="Height: " />
@@ -109,6 +109,96 @@
                     android:textSize="18dp"
                     android:textColor="#000000"
                     tools:text="Tamanho" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="100dp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#000000"
+                    android:paddingLeft="15dp"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:text="Life: " />
+
+                <TextView
+                    android:id="@+id/hp_Detalhes"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#000000"
+                    android:textSize="18dp"
+                    tools:text="Hp" />
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="100dp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#000000"
+                    android:paddingLeft="15dp"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:text="Attack: " />
+
+                <TextView
+                    android:id="@+id/Ataque_Detalhes"
+                    android:layout_height="wrap_content"
+                    android:layout_width="100dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    tools:text="Ataque" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="100dp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#000000"
+                    android:paddingLeft="15dp"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:text="Defense: " />
+
+                <TextView
+                    android:id="@+id/defesa_Detalhes"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#000000"
+                    android:textSize="18dp"
+                    tools:text="defesa" />
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="100dp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#000000"
+                    android:paddingLeft="15dp"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:text="Speed: " />
+
+                <TextView
+                    android:id="@+id/velocidadeDetalhes"
+                    android:layout_height="wrap_content"
+                    android:layout_width="100dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    tools:text=" Velocidade" />
             </LinearLayout>
 
             <TextView

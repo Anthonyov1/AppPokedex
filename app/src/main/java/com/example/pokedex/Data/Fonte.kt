@@ -9,8 +9,8 @@ import com.google.gson.reflect.TypeToken
 
 class Fonte() {
 
-    // parses the json file, converts it to Gson and returns a PokemonResponse object (which consists of a list o Pokemon objects)
-    // read the json file as an API response with GSON and converts it into a Pokemon object
+    // analisa o arquivo json, converte-o em Gson e retorna um objeto PokemonResponse (que consiste em uma lista de objetos Pokémon)
+    // lê o arquivo json como uma resposta de API com GSON e o converte em um objeto Pokémon
     fun gsonFromJson(context: Context, filename: String): PokemonResponse {
         val parser = ParseUtils()
         val jsonFileString = parser.parseFromJson(context, filename) ?: "error while parsing"

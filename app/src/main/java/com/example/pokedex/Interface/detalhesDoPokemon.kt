@@ -56,11 +56,19 @@ class detalhesDoPokemon : Fragment() {
 
         vinculo.tamanhoDetalhes.text = args.height
 
+        vinculo.hpDetalhes.text = args.hp
+
+        vinculo.AtaqueDetalhes.text = args.attack
+
+        vinculo.defesaDetalhes.text = args.defense
+
+        vinculo.velocidadeDetalhes.text = args.speed
+
         vinculo.numeroDetalhes.text = args.number
 
         vinculo.descricaoDetalhes.text = args.description
 
-        //sets drawable for pokemon type
+        //define drawable para tipo de Pokémon
         vinculo.tipoDetalhes1.setImageDrawable(typeSelector(requireContext(), args.type[0]))
         if (args.type.size > 1) {
             vinculo.tipoDetalhes2.setImageDrawable(typeSelector(requireContext(), args.type[1]))
@@ -68,7 +76,7 @@ class detalhesDoPokemon : Fragment() {
             vinculo.tipoDetalhes2.setImageDrawable(null)
         }
 
-        //sets drawable for pokemon weaknesses
+        //define drawable para os pontos fracos do Pokémon
         vinculo.fraquezaDetalhes1.setImageDrawable(typeSelector(requireContext(), args.weaknesses[0]))
         if (args.weaknesses.size > 1) {
             vinculo.fraquezaDetalhes2.setImageDrawable(
@@ -119,16 +127,16 @@ class detalhesDoPokemon : Fragment() {
             )
         }
 
-        //sets the background color of the evolution tree box based on the primary type of the pokemon
+        //define a cor de fundo da caixa da árvore de evolução com base no tipo primário de pokémon
         val firstType = args.type[0]
         typeColor(requireContext(), firstType)?.let { vinculo.caixaDasEvolucoes.setBackgroundResource(it) }
 
 
-        // if and else if testing 6 different conditions to establish in which evolution stage
-        // pokemon is and modify "evolution" section
+        //se e então se testando 6 condições diferentes para estabelecer em qual estágio de evolução
+        //pokemon é e modifica a seção "evolução"
 
         Log.d("evolucao checker", args.nextEvolution?.get(2).toString())
-        //pokemon is the first in a 3 pokemon evolution tree
+        //Pokémon é o primeiro em uma árvore de evolução de 3 Pokémon
         if (args.nextEvolution?.get(2)!! != "null") {
             vinculo.evolucao1.text = args.name
             vinculo.evolucao2.text = args.nextEvolution?.get(0)
@@ -137,7 +145,7 @@ class detalhesDoPokemon : Fragment() {
             vinculo.condicaoDeEvolucao2.text = args.nextEvolution?.get(3)
         }
 
-        //pokemon is the second in a 3 pokemon evolution tree
+        //Pokémon é o segundo em uma árvore de evolução de 3 Pokémon
         else if (args.nextEvolution?.get(0)!! != "null" && args.prevEvolution?.get(0)!! != "null") {
             vinculo.evolucao1.text = args.prevEvolution?.get(0)
             vinculo.evolucao2.text = args.name
@@ -146,7 +154,7 @@ class detalhesDoPokemon : Fragment() {
             vinculo.condicaoDeEvolucao2.text = args.nextEvolution?.get(1)
         }
 
-        //pokemon is the third in a 3 pokemon evolution tree
+        //Pokémon é o terceiro em uma árvore de evolução de 3 Pokémon
         else if (args.prevEvolution?.get(2)!! != "null") {
             vinculo.evolucao1.text = args.prevEvolution?.get(0)
             vinculo.evolucao2.text = args.prevEvolution?.get(2)
@@ -155,7 +163,7 @@ class detalhesDoPokemon : Fragment() {
             vinculo.condicaoDeEvolucao2.text = args.prevEvolution?.get(3)
         }
 
-        //pokemon is the first of a 2 pokemon evolution tree
+        //Pokémon é o primeiro de uma árvore de evolução de 2 Pokémon
         else if (args.nextEvolution?.get(1)!! != "null" && args.prevEvolution!![0] == "null") {
             vinculo.evolucao1.text = args.name
             vinculo.evolucao2.text = args.nextEvolution?.get(0)
@@ -164,7 +172,7 @@ class detalhesDoPokemon : Fragment() {
             vinculo.condicaoDeEvolucao2.visibility = View.GONE
         }
 
-        //pokemon is the second of a 2 pokemon evolution tree
+        //Pokémon é o segundo de uma árvore de evolução de 2 Pokémon
         else if (args.prevEvolution?.get(1)!! != "null" && args.nextEvolution!![0] == "null") {
             vinculo.evolucao1.text = args.prevEvolution?.get(0)
             vinculo.evolucao2.text = args.name
@@ -176,7 +184,7 @@ class detalhesDoPokemon : Fragment() {
         }
 
 
-        // adds pokemon pictures to the evolution tree
+        // adiciona imagens de Pokémon à árvore de evolução
         Picasso.get()
             .load(
                 "https://img.pokemondb.net/sprites/x-y/normal/${
@@ -216,7 +224,7 @@ class detalhesDoPokemon : Fragment() {
         }
 
 
-        // adds main pokemon picture
+        // adiciona a imagem principal do Pokémon
         Picasso.get()
             .load(
                 "https://img.pokemondb.net/sprites/x-y/normal/${

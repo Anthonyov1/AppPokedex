@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name">pokedex</string>
-    <!-- TODO: Remove or change this placeholder text -->
+    <string name="app_name">AppPokedex</string>
 
 </resources>

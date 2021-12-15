@@ -35,6 +35,18 @@
             android:name="wight"
             app:argType="string" />
         <argument
+            android:name="hp"
+            app:argType="string" />
+        <argument
+            android:name="attack"
+            app:argType="string" />
+        <argument
+            android:name="defense"
+            app:argType="string" />
+        <argument
+            android:name="speed"
+            app:argType="string" />
+        <argument
             android:name="name"
             app:argType="string" />
         <argument

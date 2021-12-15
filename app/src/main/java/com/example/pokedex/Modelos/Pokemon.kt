@@ -39,6 +39,22 @@ data class Pokemon(
  @Expose
  val peso: String? = null,
 
+    @SerializedName("hp")
+@Expose
+    val vida: String? = null,
+
+    @SerializedName("attack")
+@Expose
+    val ataque: String? = null,
+
+    @SerializedName("defense")
+@Expose
+    val defesa: String? = null,
+
+    @SerializedName("speed")
+@Expose
+    val velocidade: String? = null,
+
     @SerializedName("weaknesses")
  @Expose
  val fraqueza: List<String>? = null,
