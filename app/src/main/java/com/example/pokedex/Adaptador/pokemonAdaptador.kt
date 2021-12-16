@@ -41,8 +41,7 @@ class pokemonAdaptador(private val pokemonLista: List<Pokemon>) :
                                 ?.contains(charSearch.toLowerCase(Locale.ROOT)) == true
                         ) {
                             resultList.add(row)
-                        } else if(row.id?.toString()
-                                ?.contains(charSearch) == true){
+                        } else if(row.num?.contains(charSearch) == true){
                             resultList.add(row)
                         }
                     }
@@ -91,7 +90,7 @@ class pokemonAdaptador(private val pokemonLista: List<Pokemon>) :
             }
         }
 
-        holder.pokemonId.text = "Nº: " + pokemon.id
+        holder.pokemonId.text = "Nº: " + pokemon.id.toString().padStart(3,'0')
 
         //aplica os drawables para o tipo de Pokémon
         holder.pokemonType1.setImageDrawable(
