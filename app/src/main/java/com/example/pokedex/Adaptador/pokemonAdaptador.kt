@@ -85,7 +85,7 @@ class pokemonAdaptador(private val pokemonLista: List<Pokemon>) :
             .resize(150, 150)
             .into(holder.pokemonImage)
         holder.pokemonImage.run {
-            if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.LOLLIPOP) {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                 clipToOutline = true
             }
         }
