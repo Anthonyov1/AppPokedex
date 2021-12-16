@@ -52,9 +52,9 @@ class detalhesDoPokemon : Fragment() {
 
         vinculo.nomeDetalhes.text = args.name
 
-        vinculo.pesoDetalhes.text = args.wight
+        vinculo.spatkDetalhes.text = args.spatk
 
-        vinculo.tamanhoDetalhes.text = args.height
+        vinculo.spdefDetalhes.text = args.spdef
 
         vinculo.hpDetalhes.text = args.hp
 

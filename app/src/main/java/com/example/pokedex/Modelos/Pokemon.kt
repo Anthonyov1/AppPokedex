@@ -31,13 +31,13 @@ data class Pokemon(
  @Expose
  val tipo: List<String>? = null,
 
-    @SerializedName("height")
+    @SerializedName("spatk")
  @Expose
- val tamanho: String? = null,
+ val ataquesp: String? = null,
 
-    @SerializedName("weight")
+    @SerializedName("spdef")
  @Expose
- val peso: String? = null,
+ val defesasp: String? = null,
 
     @SerializedName("hp")
 @Expose

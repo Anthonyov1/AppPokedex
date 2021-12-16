@@ -29,10 +29,10 @@
             android:name="type"
             app:argType="string[]" />
         <argument
-            android:name="height"
+            android:name="spatk"
             app:argType="string" />
         <argument
-            android:name="wight"
+            android:name="spdef"
             app:argType="string" />
         <argument
             android:name="hp"

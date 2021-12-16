@@ -80,51 +80,6 @@
                     android:paddingLeft="15dp"
                     android:textSize="20dp"
                     android:textStyle="bold"
-                    android:text="Weight: " />
-
-                <TextView
-                    android:id="@+id/peso_Detalhes"
-                    android:layout_width="100dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="15dp"
-                    android:textColor="#000000"
-                    android:textSize="18dp"
-                    tools:text="Peso" />
-
-                <TextView
-                    android:layout_height="wrap_content"
-                    android:layout_width="100dp"
-                    android:layout_marginTop="15dp"
-                    android:textColor="#000000"
-                    android:paddingLeft="15dp"
-                    android:textSize="20dp"
-                    android:textStyle="bold"
-                    android:text="Height: " />
-
-                <TextView
-                    android:id="@+id/tamanho_Detalhes"
-                    android:layout_height="wrap_content"
-                    android:layout_width="100dp"
-                    android:layout_marginTop="15dp"
-                    android:textSize="18dp"
-                    android:textColor="#000000"
-                    tools:text="Tamanho" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_height="wrap_content"
-                    android:layout_width="100dp"
-                    android:layout_marginTop="15dp"
-                    android:textColor="#000000"
-                    android:paddingLeft="15dp"
-                    android:textSize="20dp"
-                    android:textStyle="bold"
                     android:text="Life: " />
 
                 <TextView
@@ -199,6 +154,51 @@
                     android:textSize="18dp"
                     android:textColor="#000000"
                     tools:text=" Velocidade" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="100dp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#000000"
+                    android:paddingLeft="15dp"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:text="Sp.Atk: " />
+
+                <TextView
+                    android:id="@+id/spatk_Detalhes"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#000000"
+                    android:textSize="18dp"
+                    tools:text="Ataque esp." />
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="100dp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#000000"
+                    android:paddingLeft="15dp"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:text="Sp.Def: " />
+
+                <TextView
+                    android:id="@+id/spdef_Detalhes"
+                    android:layout_height="wrap_content"
+                    android:layout_width="100dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    tools:text="defesa esp." />
             </LinearLayout>
 
             <TextView
